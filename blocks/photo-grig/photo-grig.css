@@ -1,0 +1,6 @@
+.photo-grig {
+  display: grid;
+  max-width: 1184px;
+  max-height: 671px;
+  margin: 92px auto 0;
+}
