@@ -1,0 +1,10 @@
+.footer {
+  font-family: "inter", Arial, Helvetica, sans-serif;
+  display: flex;
+  position: relative;
+  max-width: 1184px;
+  margin: 0 auto;
+  padding-top: 92px;
+  padding-bottom: 24px;
+  justify-content: space-between;
+}
