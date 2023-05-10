@@ -1,7 +1,6 @@
 .header__logo {
   color: white;
-  width: 176px;
-  height: 52px;
+  max-width: 176px;
   margin-top: 28px;
   margin-left: 48px;
 }

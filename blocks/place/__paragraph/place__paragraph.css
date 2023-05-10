@@ -5,3 +5,7 @@
   font-style: normal;
   margin: 0;
 }
+
+.place__paragraph:last-child {
+  margin-top: 26px;
+}
