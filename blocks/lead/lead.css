@@ -2,6 +2,21 @@
   font-family: "inter", Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
+  align-self: center;
+  align-items: center;
   max-width: 984px;
-  margin: 56px auto 0 ;
+  padding-top: 56px;
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    padding-top: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    max-width: 100%;
+  }
 }

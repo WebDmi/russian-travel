@@ -2,7 +2,39 @@
   font-family: "inter", Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
+  align-self: self-start;
   max-width: 690px;
-  max-height: 429px;
-  margin: 92px auto 0;
+  padding: 92px 0 0 148px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    padding: 92px 0 0 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 88px 24px 0 24px;
+    align-self: center;
+  }
+}
+
+@media (max-width: 620px) {
+  .intro {
+    padding: 80px 20px 0 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro {
+    padding: 72px 18px 0 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
+    padding: 64px 16px 0 16px;
+  }
 }

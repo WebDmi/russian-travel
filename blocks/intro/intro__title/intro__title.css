@@ -4,5 +4,32 @@
   line-height: 107%;
   margin: 0;
   max-width: 690px;
-  max-height: 58px;
+}
+
+@media (max-width: 768px) {
+  .intro__title {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 620px) {
+  .intro__title {
+    max-width: 576px;
+    font-size: 44px;
+    line-height: 109%;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro__title {
+    max-width: 382px;
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__title {
+    max-width: 288px;
+    font-size: 32px;
+  }
 }

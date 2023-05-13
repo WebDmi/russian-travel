@@ -8,3 +8,10 @@
   text-decoration-line: underline;
   max-width: 456px;
 }
+
+@media (max-width: 620px) {
+  .place__website {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

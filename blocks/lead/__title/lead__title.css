@@ -3,8 +3,37 @@
   line-height: 100px;
   font-weight: 900;
   max-width: 720px;
-  max-height: 200px;
   text-align: center;
   margin: 0;
-  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .lead__title {
+    font-size: 84px;
+    line-height: 88px;
+  }
+}
+
+@media (max-width: 620px) {
+  .lead__title {
+    font-size: 58px;
+    line-height: 62px;
+    max-width: 558px;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead__title {
+    font-size: 44px;
+    line-height: 48px;
+    max-width: 380px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+    max-width: 288px;
+  }
 }

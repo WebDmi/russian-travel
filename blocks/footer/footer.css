@@ -3,8 +3,42 @@
   display: flex;
   position: relative;
   max-width: 1184px;
-  margin: 0 auto;
-  padding-top: 92px;
-  padding-bottom: 24px;
+  padding: 92px 48px 24px 48px;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+    padding: 88px 24px 24px 24px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 620px) {
+  .footer {
+    max-width: 576px;
+    padding: 80px 24px 24px 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer {
+    max-width: 432px;
+    padding: 72px 118px 24px 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer {
+    max-width: 186px;
+    padding: 64px 118px 24px 16px;
+  }
 }

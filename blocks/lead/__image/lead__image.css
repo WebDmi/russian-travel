@@ -3,3 +3,21 @@
   max-height: 100%;
   padding-top: 54px;
 }
+
+@media (max-width: 620px) {
+  .lead__image {
+    padding-top: 48px;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead__image {
+    padding-top: 44px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__image {
+    padding-top: 40px;
+  }
+}

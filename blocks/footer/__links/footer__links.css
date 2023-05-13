@@ -3,4 +3,12 @@
   padding: 0;
   margin: 0;
   list-style-type: none;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 620px) {
+  .footer__links {
+    max-width: 186px;
+    gap: 32px;
+  }
 }

@@ -4,9 +4,46 @@
   font-size: 24px;
   line-height: 117%;
   text-align: right;
+  text-decoration-line: none;
+  padding-top: 18px;
+}
+
+.header__lang-link:active {
   text-decoration-line: underline;
 }
 
-.header__lang-link:last-child {
-  text-decoration-line: none;
+@media (max-width: 620px) {
+  .header__lang-link {
+    font-size: 22px;
+    line-height: 111%;
+    padding-top: 16px;
+  }
+
+  .header__lang-link:active {
+    text-decoration-line: underline;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__lang-link {
+    font-size: 20px;
+    line-height: 111%;
+    padding-top: 14px;
+  }
+
+  .header__lang-link:active {
+    text-decoration-line: underline;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 111%;
+    padding-top: 14px;
+  }
+
+  .header__lang-link:active {
+    text-decoration-line: underline;
+  }
 }
