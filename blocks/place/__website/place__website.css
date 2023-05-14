@@ -5,3 +5,10 @@
   gap: 12px;
   align-items: start;
 }
+
+@media (max-width: 620px) {
+  .place__website {
+    font-size: 38px;
+    padding-left: 16px;
+  }
+}

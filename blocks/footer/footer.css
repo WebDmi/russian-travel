@@ -1,7 +1,6 @@
 .footer {
   font-family: "inter", Arial, Helvetica, sans-serif;
   display: flex;
-  position: relative;
   max-width: 1184px;
   padding: 92px 48px 24px 48px;
   justify-content: space-between;
