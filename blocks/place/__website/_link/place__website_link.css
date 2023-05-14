@@ -1,17 +1,8 @@
-.place__website {
-    color: white;
-    align-self: end;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 122%;
-    text-decoration-line: underline;
-    max-width: 456px;
-  }
-  
-  @media (max-width: 620px) {
-    .place__website {
-      padding-left: 16px;
-      padding-right: 16px;
-    }
-  }
+.place__website_link {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
+  text-decoration-line: underline;
+}
