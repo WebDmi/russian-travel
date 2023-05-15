@@ -8,19 +8,11 @@
   padding-top: 18px;
 }
 
-.header__lang-link:active {
-  text-decoration-line: underline;
-}
-
 @media (max-width: 620px) {
   .header__lang-link {
     font-size: 22px;
     line-height: 111%;
     padding-top: 16px;
-  }
-
-  .header__lang-link:active {
-    text-decoration-line: underline;
   }
 }
 
@@ -30,10 +22,6 @@
     line-height: 111%;
     padding-top: 14px;
   }
-
-  .header__lang-link:active {
-    text-decoration-line: underline;
-  }
 }
 
 @media (max-width: 320px) {
@@ -41,9 +29,5 @@
     font-size: 18px;
     line-height: 111%;
     padding-top: 14px;
-  }
-
-  .header__lang-link:active {
-    text-decoration-line: underline;
   }
 }
