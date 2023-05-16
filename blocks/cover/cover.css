@@ -2,35 +2,30 @@
   font-family: "inter", Arial, Helvetica, sans-serif;
   max-width: 1184px;
   margin-top: 92px;
-  padding: 0 48px;
+  margin-left: 48px;
+  margin-right: 48px;
 }
 
 @media (max-width: 1024px) {
   .cover {
-    padding: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .cover {
-    margin-top: 90px;
+    margin: 92px 0 0;
   }
 }
 
 @media (max-width: 620px) {
   .cover {
-    margin-top: 85px;
+    margin: 85px 0 0;
   }
 }
 
 @media (max-width: 425px) {
   .cover {
-    margin-top: 76px;
+    margin: 76px 0 0;
   }
 }
 
 @media (max-width: 320px) {
   .cover {
-    margin-top: 66px;
+    margin: 66px 0 0;
   }
 }

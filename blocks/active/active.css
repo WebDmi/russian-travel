@@ -1,3 +1,7 @@
 .active:active {
   text-decoration-line: underline;
 }
+
+.active:hover {
+  text-decoration-line: underline;
+}

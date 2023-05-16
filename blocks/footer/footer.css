@@ -2,7 +2,7 @@
   font-family: "inter", Arial, Helvetica, sans-serif;
   display: flex;
   max-width: 1184px;
-  padding: 92px 48px 24px 48px;
+  margin: 92px 48px 24px 48px;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
@@ -17,28 +17,26 @@
 @media (max-width: 768px) {
   .footer {
     max-width: 720px;
-    padding: 88px 24px 24px 24px;
-    flex-direction: column;
+    margin: 88px 24px 24px 24px;
   }
 }
 
 @media (max-width: 620px) {
   .footer {
-    max-width: 576px;
-    padding: 80px 24px 24px 24px;
+    max-width: 572px;
+    margin-top: 80px;
   }
 }
 
 @media (max-width: 425px) {
   .footer {
-    max-width: 432px;
-    padding: 72px 118px 24px 16px;
+    max-width: 186px;
+    margin: 72px 118px 24px 16px;
   }
 }
 
 @media (max-width: 320px) {
   .footer {
-    max-width: 186px;
-    padding: 64px 118px 24px 16px;
+    margin-top: 64px;
   }
 }

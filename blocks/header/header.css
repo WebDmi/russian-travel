@@ -2,41 +2,40 @@
   display: flex;
   justify-content: space-between;
   max-width: 1184px;
-  padding: 28px 48px 0 48px;
+  margin: 28px 48px 0 48px;
   width: 100%;
 }
 
 @media (max-width: 1024px) {
   .header {
     max-width: 928px;
-    padding: 28px 48px 0 48px;
   }
 }
 
 @media (max-width: 768px) {
   .header {
     max-width: 720px;
-    padding: 28px 24px 0 24px;
+    margin: 28px 24px 0 24px;
   }
 }
 
 @media (max-width: 620px) {
   .header {
     max-width: 576px;
-    padding: 24px 22px 0 22px;
+    margin: 24px 22px 0 22px;
   }
 }
 
 @media (max-width: 425px) {
   .header {
     max-width: 432px;
-    padding: 20px 19px 0 19px;
+    margin: 20px 19px 0 19px;
   }
 }
 
 @media (max-width: 320px) {
   .header {
     max-width: 288px;
-    padding: 16px 16px 0 16px;
+    margin: 16px 16px 0 16px;
   }
 }

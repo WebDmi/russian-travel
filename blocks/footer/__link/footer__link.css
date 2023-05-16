@@ -5,13 +5,11 @@
   line-height: 112%;
   text-decoration: none;
   color: white;
-  padding-right: 18px;
 }
 
 @media (max-width: 620px) {
   .footer__link {
     font-size: 20px;
-    line-height: 112%;
   }
 }
 
