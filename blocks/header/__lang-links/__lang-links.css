@@ -1,6 +1,9 @@
 .header__lang-links {
   color: white;
   display: flex;
+  align-items: end;
   gap: 18px;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
