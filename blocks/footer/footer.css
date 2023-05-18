@@ -2,41 +2,39 @@
   font-family: "inter", Arial, Helvetica, sans-serif;
   display: flex;
   max-width: 1184px;
-  margin: 92px 48px 24px 48px;
+  margin: 92px 0 24px 0;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
 }
 
-@media (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .footer {
-    max-width: 928px;
+    margin: 88px 48px 24px;
+    max-width: 90.625%;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .footer {
-    max-width: 720px;
-    margin: 88px 24px 24px 24px;
+    margin: 88px 0 24px 0;
+    max-width: 93.75%;
   }
 }
 
-@media (max-width: 620px) {
+@media screen and (min-width: 620px) and (max-width: 767px) {
   .footer {
-    max-width: 572px;
-    margin-top: 80px;
+    margin: 80px 0 24px 0;
+    gap: 24px;
+    max-width: 90%;
   }
 }
 
-@media (max-width: 425px) {
+@media screen and (min-width: 320px) and (max-width: 619px) {
   .footer {
+    margin: 64px 0 24px 16px;
+    gap: 48px;
     max-width: 186px;
-    margin: 72px 118px 24px 16px;
-  }
-}
-
-@media (max-width: 320px) {
-  .footer {
-    margin-top: 64px;
+    align-self: flex-start;
   }
 }
