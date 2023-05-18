@@ -6,9 +6,14 @@
   align-items: start;
 }
 
-@media (max-width: 620px) {
+@media screen and (min-width: 620px) and (max-width: 767px) {
   .place__website {
-    font-size: 38px;
-    padding-left: 16px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 619px) {
+  .place__website {
+    margin-left: 16px;
   }
 }
