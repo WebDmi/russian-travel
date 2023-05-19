@@ -2,13 +2,7 @@
   margin: 64px 0 0;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .lead__figure {
-    margin: 56px 0 0;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .lead__figure {
     margin: 56px 0 0;
   }
@@ -16,6 +10,6 @@
 
 @media screen and (min-width: 320px) and (max-width: 619px) {
   .lead__figure {
-    margin: 64px 0 0;
+    margin: 48px 0 0;
   }
 }

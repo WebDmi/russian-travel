@@ -1,5 +1,5 @@
 .place__paragraphs {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   gap: 27px;
   max-width: 484px;

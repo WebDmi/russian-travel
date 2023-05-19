@@ -1,7 +1,7 @@
-.active:active {
+.header__lang-link_active {
   text-decoration-line: underline;
 }
 
-.active:hover {
+.header__lang-link_active:active {
   text-decoration-line: underline;
 }
